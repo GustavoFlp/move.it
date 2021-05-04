@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    background-color: #5965E0;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+.grid{
+    display: grid;
+}
+.grid-colums-2{
+    grid-template-columns: 1fr 1fr;
+}
+.min-width-900{
+    max-width: 1280px;
+}
+.mg-0-auto{
+    margin: 0 auto;
+}
+.align-itens-center{
+    align-items: center;
+}
+.screen-width-full{
+    width: 100%;
+}
+.min-height-screen{
+    min-height: 100vh;
+}
+.screen-50-porcent{
+   width: 50%;
+}
+.mg-top-25-porcent{
+    margin-top: -20%;
+}
+.mg-bottom-300{
+    margin-bottom: 300px;
+}
+.text-size-lg{
+    font-size: 32px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.margin-top--10-porcent{
+    margin-top: -10%;
+}
+.text-color-white{
+    color: #FFFFFF;
+}
+.margin-left-9-porcent{
+    left: 9%;
+}
+.margin-top-8-porcent{
+    margin-top: 8%;
+}
+.pd-left-15-porcent{
+    padding-left: 15%;
+}
+.text-color-lightblue{
+    color: #B2B9FF;
+}
+.width-35px{
+    width: 35px;
+}
+.margin-top-18-porcent{
+    margin-top: 18%;
+}
+.mg-left-40-porcent{
+    margin-left: 60%;
+}
+button{
+    border: none;
+    background-color: #4650a9;
+    color: white;
+    height: 46px;
+    width: 55px;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+.botton-hover:hover{
+    background-color: green;
+}
+input{
+    background-color: #4953B8;
+    border: none;
+    height: 44px;
+    width: 60%;
+    border-radius: 5px 0px 0px 5px;
+}
